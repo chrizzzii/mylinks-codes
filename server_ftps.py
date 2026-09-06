@@ -24,7 +24,7 @@ handler.tls_data_required = True
 
 handler.passive_ports = range(60000, 60100)
 
-handler.masquerade_address = "192.168.1.10"
+handler.masquerade_address = "192.168.1.50"
 
 server = FTPServer(("0.0.0.0", 8021), handler)
 print("Success! The FTPS server is running on Port 8021")
